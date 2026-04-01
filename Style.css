@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f0f1a;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #14142b;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero button {
+  padding: 12px 25px;
+  background: #6c5cff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background: #1a1a35;
+}
+
+.products {
+  text-align: center;
+  padding: 50px;
+}
+
+.card {
+  background: #1e1e3f;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #6c5cff;
+  border: none;
+  color: white;
+}
+
+.discord {
+  text-align: center;
+  padding: 60px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #14142b;
+}
